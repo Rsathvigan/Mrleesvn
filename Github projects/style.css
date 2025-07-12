@@ -1,0 +1,220 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #bbd2d8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .product {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin: 15px;
+      padding: 15px;
+      width: 250px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .product h3 {
+      margin-top: 10px;
+    }
+
+    .product p {
+      color: green;
+      font-weight: bold;
+    }
+
+    .btn {
+      background-color: #28a745;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background-color: #218838;
+    }
+    .bouncing-blob--purple{
+      background: #8c8ff1;
+    }
+    .bouncing-blob--pink{
+      background: #ff13c850;
+    }
+    .bouncing-blob--container{
+      position: fixed;
+      z-index: -1;
+      top: 0;left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .menu:hover::before{
+      transform: scale(1);
+    } 
+   body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #0d47a1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #1565c0;
+}
+.additional-info {
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 2px solid #0d47a1;
+}
+
+.additional-info h2 {
+  color: #0d47a1;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.additional-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+.additional-info li {
+  margin: 10px 0;
+  color: #333;
+}
+section {
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 90%;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  color: #0d2c5d;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section p, section ul {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section ul li {
+  padding: 5px 0;
+  color: #333;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0d2c5d;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #1b417a;
+}
+<nav>
+  <div class="logo">MyOnlineSales</div>
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <input type="text" placeholder="Search..." class="search-bar">
+  <div class="auth-buttons">
+    <a href="#login" class="btn">Login</a>
+    <a href="#signup" class="btn signup">Sign Up</a>
+  </div>
+</nav>
